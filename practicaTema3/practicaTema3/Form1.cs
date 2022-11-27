@@ -21,5 +21,11 @@ namespace practicaTema3
         {
             lblMensaje1.Text = "Yo sigo haciendo mas commits";
         }
+
+        private void btnUsuario2_Click(object sender, EventArgs e)
+        {
+            lblMensaje1.Text = "Usuario 2 haciendo commits";
+            lblMensaje2.Text = "Usuario 2 haciendo commits";
+        }
     }
 }

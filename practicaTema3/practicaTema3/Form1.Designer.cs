@@ -30,6 +30,8 @@
         {
             this.lblMensaje1 = new System.Windows.Forms.Label();
             this.btnUsuario1 = new System.Windows.Forms.Button();
+            this.lblMensaje2 = new System.Windows.Forms.Label();
+            this.btnUsuario2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMensaje1
@@ -54,12 +56,38 @@
             this.btnUsuario1.UseVisualStyleBackColor = false;
             this.btnUsuario1.Click += new System.EventHandler(this.btnUsuario1_Click);
             // 
+            // lblMensaje2
+            // 
+            this.lblMensaje2.AutoSize = true;
+            this.lblMensaje2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensaje2.ForeColor = System.Drawing.Color.Red;
+            this.lblMensaje2.Location = new System.Drawing.Point(94, 306);
+            this.lblMensaje2.Name = "lblMensaje2";
+            this.lblMensaje2.Size = new System.Drawing.Size(260, 37);
+            this.lblMensaje2.TabIndex = 2;
+            this.lblMensaje2.Text = "Para el usuario 2";
+            // 
+            // btnUsuario2
+            // 
+            this.btnUsuario2.BackColor = System.Drawing.Color.LightCoral;
+            this.btnUsuario2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuario2.ForeColor = System.Drawing.Color.Black;
+            this.btnUsuario2.Location = new System.Drawing.Point(389, 220);
+            this.btnUsuario2.Name = "btnUsuario2";
+            this.btnUsuario2.Size = new System.Drawing.Size(168, 58);
+            this.btnUsuario2.TabIndex = 3;
+            this.btnUsuario2.Text = "Usuario 2";
+            this.btnUsuario2.UseVisualStyleBackColor = false;
+            this.btnUsuario2.Click += new System.EventHandler(this.btnUsuario2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnUsuario2);
+            this.Controls.Add(this.lblMensaje2);
             this.Controls.Add(this.btnUsuario1);
             this.Controls.Add(this.lblMensaje1);
             this.Name = "Form1";
@@ -73,6 +101,8 @@
 
         private System.Windows.Forms.Label lblMensaje1;
         private System.Windows.Forms.Button btnUsuario1;
+        private System.Windows.Forms.Label lblMensaje2;
+        private System.Windows.Forms.Button btnUsuario2;
     }
 }
 
