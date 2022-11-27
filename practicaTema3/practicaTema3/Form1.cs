@@ -16,5 +16,10 @@ namespace practicaTema3
         {
             InitializeComponent();
         }
+
+        private void btnUsuario1_Click(object sender, EventArgs e)
+        {
+            lblMensaje1.Text = "Yo sigo haciendo mas commits";
+        }
     }
 }
